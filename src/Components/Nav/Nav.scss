@@ -1,0 +1,214 @@
+:root {
+    --blue: #1E164B;
+    --red: #F50739;
+    --yl: #E1A228;
+}
+
+.header {
+    background: var(--blue);
+    padding: 15px 0;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+
+    @include media (1550px) {
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    @include media (1050px) {
+        display: none;
+    }
+
+    &_logo {
+        display: none;
+
+        @include media (1050px) {
+            display: block;
+        }
+
+    }
+
+    &_box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_text {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25.1px;
+        letter-spacing: 0.02em;
+        color: white;
+
+    }
+
+    &_phone {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25.1px;
+        letter-spacing: 0.02em;
+        color: white;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        @include media (1050px) {
+            display: none;
+        }
+
+        &_icon {
+            font-size: 24px;
+        }
+    }
+
+    &_card,
+    &_card2 {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+
+    }
+
+    &_icon,
+    &_icon2 {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_icon2{
+        width: 45px;
+        height: 45px;
+    }
+    &_card2 {
+        display: none;
+
+        @include media (1050px) {
+            display: flex;
+        }
+    }
+}
+
+.nav {
+    background: #f2f2f3;
+    padding: 20px;
+z-index: 9999;
+    @include media(1050px) {
+        background: var(--blue);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 10px;
+    }
+
+    &_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_logo {
+        @include media(1050px) {
+            display: none;
+        }
+    }
+
+    &_list {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        transition: .3s;
+        z-index: 9999;
+        
+        @include media(1300px) {
+            gap: 40px;
+        }
+
+        @include media(1050px) {
+            background: white;
+            position: absolute;
+            flex-direction: column;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background: #f2f2f3;
+            height: 80vh;
+            align-items: center;
+            justify-content: center;
+            transform: translateY(-110%);
+
+            &.active {
+                transform: translateY(0);
+
+            }
+        }
+    }
+
+    &_link {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.08px;
+        letter-spacing: 0.02em;
+        color: var(--blue);
+    }
+
+    &_phone,
+    &_phone2 {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 14px 30px;
+        border: 1px solid var(--blue);
+        border-radius: 32px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.08px;
+        letter-spacing: 0.02em;
+        color: var(--blue);
+
+        @include media (1150px) {
+            padding: 12px 25px;
+
+        }
+
+        &_icon {
+            color: var(--red);
+            font-size: 24px;
+        }
+    }
+
+    &_phone {
+        @include media (1050px) {
+            display: none;
+        }
+    }
+
+    &_phone2 {
+        display: none;
+
+        @include media (1050px) {
+            display: flex;
+        }
+    }
+
+    &_menu,
+    &_close {
+        color: white;
+        font-size: 30px;
+        display: none;
+
+        @include media (1050px) {
+            display: block;
+        }
+    }
+
+    &_close {
+        color: var(--blue);
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+}

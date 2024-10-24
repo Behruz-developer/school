@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import './mixins.scss';
+@import '../../Components/Nav/Nav.scss',
+'../../Components/Upcoming/Upcoming.scss',
+'../../Components/Form/Form.scss',
+'../../Components/About/About.scss',
+'../../Components/Customer/Customer.scss';
+
+:root {
+    --blue: #1E164B;
+    --red: #F50739;
+    --yl: #E1A228;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+body{
+    background-color: #F7F6F2;
+}
+.container {
+    max-width: 1560px;
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+}
