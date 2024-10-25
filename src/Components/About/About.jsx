@@ -10,7 +10,7 @@ const About = () => {
         <div className='about'>
             <div className="container">
                 <div className="about_title_box">
-                    <h2 className="about_title"> <span>“HAMRAQULOV MAKTAB” </span> <br /> HAQIDA</h2>
+                    <h2 className="title"> <span>“HAMRAQULOV MAKTAB” </span> <br /> HAQIDA</h2>
                     <img src={corner} alt="" />
                 </div>
                 <p className="about_text">

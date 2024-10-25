@@ -13,7 +13,7 @@ const Customer = () => {
         <div className='customer'>
             <div className="container">
                 <div className="customer_title_box">
-                    <h2 className="customer_title">NIMA UCHUN AYNAN <br /> <span>“HAMRAKULOV MAKTABI”</span> </h2>
+                    <h2 className="title">NIMA UCHUN AYNAN <br /> <span>“HAMRAKULOV MAKTABI”</span> </h2>
                     <iframe className='customer_animation' src="https://lottie.host/embed/7029e98f-b110-433c-b6bb-f2b76d7d0cc2/mIYatOsjQK.json"></iframe>
 
                 </div>
