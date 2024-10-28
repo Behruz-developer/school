@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import line from '../../assets/images/line.png'
+import line from '../../assets/images/line3.png'
 import line2 from '../../assets/images/line2.png'
 
 const Customer = () => {

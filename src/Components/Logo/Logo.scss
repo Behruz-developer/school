@@ -1,0 +1,29 @@
+:root {
+    --blue: #1E164B;
+    --red: #F50739;
+    --yl: #E1A228;
+}
+
+.logo {
+    width: 100%;
+    background: var(--blue);
+    padding: 40px 0;
+    margin-top: 150px;
+
+    @include media (1200px) {
+        margin-top: 100px;
+    }
+
+    @include media (1000px) {
+        margin-top: 50px;
+    }
+
+    @include media (600px) {
+        margin-top: 50px;
+        padding: 40px 0;
+    }
+
+    img {
+        width: 100%;
+    }
+}

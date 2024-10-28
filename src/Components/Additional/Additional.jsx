@@ -4,7 +4,9 @@ import additional2 from '../../assets/images/additional2.png'
 import additional3 from '../../assets/images/additional3.png'
 import additional4 from '../../assets/images/additional4.png'
 import additional5 from '../../assets/images/additional5.png'
+import additional6 from '../../assets/images/additional6.png'
 import corner from '../../assets/images/corner2.png'
+import Logo from '../Logo/Logo'
 
 const Additional = () => {
     return (
@@ -15,7 +17,7 @@ const Additional = () => {
                         <h2 className="title">TO’GARAKLAR</h2>
                         <p className="additional_title_card_text">Farzandingiz bizning maktabda o’qisa <span>bepul</span> to’garaklarga qatnashish imoniyatiga ega.</p>
                     </div>
-                    <img src={corner} alt="" />
+                    <img src={corner} alt="" className='additional_img2'/>
                 </div>
                 <div className="additional_box">
                     <div className="additional_card">
@@ -38,8 +40,13 @@ const Additional = () => {
                         <img src={additional5} alt="" />
                         <p className="additional_text">TIL KURSLARI</p>
                     </div>
+                    <div className="additional_card">
+                        <img src={additional6} alt="" />
+                        <p className="additional_text">MUSIQA DARSI</p>
+                    </div>
                 </div>
             </div>
+            <Logo/>
         </div>
     )
 }
