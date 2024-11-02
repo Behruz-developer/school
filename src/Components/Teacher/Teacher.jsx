@@ -12,7 +12,7 @@ const Teacher = () => {
             <div className="container">
                 <div className="additional_title_box">
                     <div className="additional_title_card">
-                        <h2 className="title">TO’GARAKLAR</h2>
+                        <h2 className="title">BIZNING O’QITUVCHILARIMIZ</h2>
                         <p className="additional_title_card_text">Farzandingiz bizning maktabda o’qisa <span>xalqaro o’qituvchilardan </span>  dars oladi</p>
                     </div>
                     <img src={border} alt="" className='teacher_img2' />

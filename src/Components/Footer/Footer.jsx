@@ -20,7 +20,7 @@ const Footer = () => {
                             <img src={logo2} alt="" />
                         </a>
                         <h2 className="footer_title">
-                            Qadiryatlarga asosalngan <br /> ta’lim
+                        Ingliz tili va aniq fanlarga ixtisoslashgan, amaliy darslar va natijalar maktabi
                         </h2>
                     </div>
                     <ul className="footer_list">

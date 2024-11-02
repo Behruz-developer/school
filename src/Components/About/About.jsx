@@ -2,7 +2,6 @@ import React from 'react'
 import corner from '../../assets/images/corner.png'
 import star from '../../assets/images/star.png'
 import about1 from '../../assets/images/about1.png'
-import border from '../../assets/images/border.png'
 
 
 const About = () => {
@@ -14,7 +13,7 @@ const About = () => {
                     <img src={corner} alt="" />
                 </div>
                 <p className="about_text">
-                    Bolaning aqlan, jismonan rivojlanishiga kerak bo‘ladigan zamonaviy va milliy metodlarga boyitilgan ta’lim tizimini kafolatlaydi. Ta’lim dasturlari uchun maxsus ishlab chiqilgan o‘quv qo‘llanmalardan foydalanib o‘qitiladi.
+                    Maktabimizda o’quvchilarni hamma tomondan yetuk inson bo’lishlari uchun imkoniyatlar yaratiladi.
                 </p>
                 <div className="about_box">
                     <div className="about_better">
@@ -32,7 +31,7 @@ const About = () => {
                             </div>
 
                             <p className="about_subtitle">
-                                9 OYLIK TA’LIM
+                                10 OYLIK TA’LIM
                             </p>
                         </div>
                         <div className="about_better_card">
@@ -40,25 +39,37 @@ const About = () => {
                                 <img src={star} alt="" />
                             </div>
                             <p className="about_subtitle">
-                                TRANSPORT XIZMATI
+                                YOTOQXONA XIZMATI
                             </p>
                         </div>
                     </div>
                     <div className="about_main">
                         <div className="about_main_card">
                             <div className="about_border"></div>
-                            <p className="about_text active1">Biz har bir bolaning ta’limiga chuqur yondashamiz</p>
+                            <p className="about_text active1">Avvaldan bir yillik to’lov qilinsa <span>-20%</span></p>
                         </div>
                         <div className="about_main_card">
                             <div className="about_border"></div>
-                            <p className="about_text active1">O’qituvchilar xalqaro tajriba ega </p>
+                            <p className="about_text active1">Bir oiladan 2 va undan ortiq bola uchun har bir bolaning to’lovidan <span>-5%</span> </p>
                         </div>
                     </div>
                     <div className="about_bottom">
                         <div className="about_bottom_card">
                             <img src={about1} alt="" className='about_bottom_img' />
                             <h2 className="about_subtitle active">
-                                1-SINFDAN 11-SINFCHAGA
+                                1-SINFDAN 11-SINFGACHA
+                            </h2>
+                            <p className="about_text">Maktabimizda eng yaxshi o‘quvchiga har oy <span>300 ming </span> so‘m stipendiya beriladi.</p>
+                            <div className="about_bottom_information">
+                                <p className="about_subtitle">7-17 <br /> YOSH</p>
+                                <p className="about_subtitle">5  KUN</p>
+                                <p className="about_subtitle">5  SOAT</p>
+                            </div>
+                        </div>
+                        <div className="about_bottom_card">
+                            <img src={about1} alt="" className='about_bottom_img' />
+                            <h2 className="about_subtitle active">
+                                1-SINFDAN 11-SINFGACHA
                             </h2>
                             <p className="about_text">Sifatli KUN TARTIB va qiziqarli ta’lim, barcha fanlar birdek kuch berib o‘qitiladi </p>
                             <div className="about_bottom_information">
@@ -70,21 +81,9 @@ const About = () => {
                         <div className="about_bottom_card">
                             <img src={about1} alt="" className='about_bottom_img' />
                             <h2 className="about_subtitle active">
-                                1-SINFDAN 11-SINFCHAGA
+                                1-SINFDAN 11-SINFGACHA
                             </h2>
-                            <p className="about_text">Sifatli KUN TARTIB va qiziqarli ta’lim, barcha fanlar birdek kuch berib o‘qitiladi </p>
-                            <div className="about_bottom_information">
-                                <p className="about_subtitle">7-17 <br /> YOSH</p>
-                                <p className="about_subtitle">5  KUN</p>
-                                <p className="about_subtitle">5  SOAT</p>
-                            </div>
-                        </div>
-                        <div className="about_bottom_card">
-                            <img src={about1} alt="" className='about_bottom_img' />
-                            <h2 className="about_subtitle active">
-                                1-SINFDAN 11-SINFCHAGA
-                            </h2>
-                            <p className="about_text">Sifatli KUN TARTIB va qiziqarli ta’lim, barcha fanlar birdek kuch berib o‘qitiladi </p>
+                            <p className="about_text">Sifatli va qiziqarli ta’lim, barcha fanlar birdek kuch berib o‘qitiladi</p>
                             <div className="about_bottom_information">
                                 <p className="about_subtitle">7-17 <br /> YOSH</p>
                                 <p className="about_subtitle">5  KUN</p>

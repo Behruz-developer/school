@@ -66,8 +66,11 @@
                 line-height: 14px;
 
             }
-        }
 
+        }
+        span{
+            color: var(--red);
+        }
         @include media (850px) {
             font-size: 20px;
             line-height: 32px;
@@ -317,4 +320,10 @@
 .about_bottom_card:nth-of-type(3) .about_bottom_information {
     background-color: var(--yl);
     /* Bu yerni o'zingizga kerakli rangga o'zgartiring */
+}
+.about_bottom_card:nth-of-type(2) .about_subtitle.active{
+    color: var(--red);
+}
+.about_bottom_card:nth-of-type(3) .about_subtitle.active{
+    color: var(--yl);
 }

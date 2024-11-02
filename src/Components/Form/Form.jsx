@@ -8,8 +8,8 @@ const Form = () => {
             <div className="container">
                 <div className="form_box">
                     <div className="form_card">
-                        <img src={logo} alt="" className="form_logo" />
-                        <h2 className="form_title">
+                        <img src={logo} alt="" className="form_logo" data-aos="fade-up"/>
+                        <h2 className="form_title" data-aos="fade-right" data-aos-duration="1200">
                             HOZIROQ <span>RO’YXATDAN</span> O’TIB BIZ <br /> BILAN BOG’LANING
                         </h2>
                         <div className="form_send">
@@ -24,7 +24,7 @@ const Form = () => {
                         </div>
                         <button className='form_btn'>Ariza qoldirish</button>
                     </div>
-                    <img src={form1} alt="" className='form_img'/>
+                    <img src={form1} alt="" className='form_img' data-aos="fade-left"  data-aos-offset="500" />
                 </div>
             </div>
         </div>
