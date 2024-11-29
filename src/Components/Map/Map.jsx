@@ -19,7 +19,7 @@ const Map = () => {
                             </div>
                         </div>
                     </div>
-                    <iframe className='map_container' src="https://yandex.com/map-widget/v1/?um=constructor%3A1d8c5550600d1309b559ffa29e96490687f79104c9d642c17e5119de495adeb4&amp;source=constructor" frameborder="0"></iframe>
+                    <iframe className='map_container' src="https://yandex.com/map-widget/v1/?um=constructor%3Ad5fae42cd5cf687c7e936bb37856a1bb5cc39d0f03fbc627c07dbde89761d09e&amp;source=constructor" width="747" height="471" frameborder="0"></iframe>
                 </div>
             </div>
         </div>

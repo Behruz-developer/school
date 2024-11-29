@@ -20,21 +20,20 @@ const Footer = () => {
                             <img src={logo2} alt="" />
                         </a>
                         <h2 className="footer_title">
-                        Ingliz tili va aniq fanlarga ixtisoslashgan, amaliy darslar va natijalar maktabi
+                            Ingliz tili va aniq fanlarga ixtisoslashgan, amaliy darslar va natijalar maktabi
                         </h2>
                     </div>
                     <ul className="footer_list">
                         <p className="footer_subtitle">Bizning ijtimoiy tarmoqlrimiz</p>
-                        <li><a href="#!" className="footer_link"><FaInstagram className='footer_icon' />  Instagram</a></li>
-                        <li><a href="#!" className="footer_link"><PiTelegramLogoDuotone className='footer_icon' /> Telegram</a></li>
+                        <li><a href="https://www.instagram.com/hamrakulov_maktabi/profilecard/?igsh=MTM0amk0bnk2NXRnOA==" className="footer_link"><FaInstagram className='footer_icon' />  Instagram</a></li>
+                        <li><a href="https://t.me/hamrakulov_maktabi" className="footer_link"><PiTelegramLogoDuotone className='footer_icon' /> Telegram</a></li>
                         <li><a href="#!" className="footer_link"><FiFacebook className='footer_icon' /> Facebook</a></li>
-                        <li><a href="#!" className="footer_link"><AiOutlineYoutube className='footer_icon' /> Youtube</a></li>
                     </ul>
                     <ul className="footer_list">
                         <p className="footer_subtitle">Bog’lanish</p>
-                        <li><a href="#!" className="footer_link"><HiOutlinePhone  className='footer_icon2' />  +99890 000 99 99</a></li>
-                        <li><a href="#!" className="footer_link"><CgMail className='footer_icon2'/> maktab@gmail.com</a></li>
-                        <li><a href="#!" className="footer_link"><TfiLocationPin className='footer_icon2'/> Jizzax shahri, <br /> Chilonzor tumani</a></li>
+                        <li><a href="tel:+998722000809" className="footer_link"><HiOutlinePhone className='footer_icon2' />  +998 (72) 200-08-09</a></li>
+                        <li><a href="#!" className="footer_link"><CgMail className='footer_icon2' /> hamrakulov@gmail.com</a></li>
+                        <li><a href="#!" className="footer_link"><TfiLocationPin className='footer_icon2' /> Jizzax shahar ,Qaliya MFY, A.Sa'dullayev ko'chasi ,79 uy.</a></li>
                     </ul>
                 </div>
             </div>

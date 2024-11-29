@@ -18,7 +18,7 @@ const Nav = () => {
       <header className='header'>
         <div className="container">
           <div className="header_box">
-            <a href="#!" className='header_phone'> <BiSolidPhone className='header_phone_icon' />+99890 000 99 99 </a>
+            <a href="+998722000809" className='header_phone'> <BiSolidPhone className='header_phone_icon' />+998 (72) 200-08-09</a>
 
             <div className="header_card">
               <img src={micrafon} alt="" />
@@ -26,18 +26,16 @@ const Nav = () => {
               <img src={micrafon} alt="" />
             </div>
             <div className="header_card">
-              <div className="header_icon">
-                <img src={youtube} alt="" />
-              </div>
-              <div className="header_icon">
+
+              <a href='https://www.instagram.com/hamrakulov_maktabi/profilecard/?igsh=MTM0amk0bnk2NXRnOA==' className="header_icon">
                 <img src={instagram} alt="" />
-              </div>
-              <div className="header_icon">
+              </a>
+              <a href='https://t.me/hamrakulov_maktabi' className="header_icon">
                 <img src={telegram} alt="" />
-              </div>
-              <div className="header_icon">
+              </a>
+              <a href='#!' className="header_icon">
                 <img src={facebook} alt="" />
-              </div>
+              </a>
             </div>
 
           </div>
@@ -76,7 +74,7 @@ const Nav = () => {
                 </div>
               </div>
             </ul>
-            <a href="#!" className="nav_phone"> <BiSolidPhone className='nav_phone_icon' /> Qo’ng’iroq qilish</a>
+            <a href="+998722000809" className="nav_phone"> <BiSolidPhone className='nav_phone_icon' /> Qo’ng’iroq qilish</a>
             <CgMenu className='nav_menu' onClick={() => setActive(true)} />
 
           </div>
