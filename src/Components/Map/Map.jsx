@@ -15,7 +15,7 @@ const Map = () => {
                                 <p className="map_subtitle">
                                     Mo’ljal:
                                 </p>
-                                <p className="map_text">Jizzax shahri, Chilonzor tumani</p>
+                                <p className="map_text">Jizzax shahar ,Qaliya MFY, A.Sa'dullayev ko'chasi ,79 uy.</p>
                             </div>
                         </div>
                     </div>
