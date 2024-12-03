@@ -8,6 +8,10 @@ import teacher5 from '../../assets/images/teacher5.jpg'
 import teacher6 from '../../assets/images/teacher6.jpg'
 import teacher7 from '../../assets/images/teacher7.jpg'
 import teacher8 from '../../assets/images/teacher8.jpg'
+import teacher9 from '../../assets/images/teacher9.jpg'
+import teacher10 from '../../assets/images/teacher10.jpg'
+import teacher11 from '../../assets/images/teacher11.jpg'
+import teacher12 from '../../assets/images/teacher12.png'
 import { FaTelegramPlane } from "react-icons/fa";
 import { SiInstagram } from "react-icons/si";
 import { FaPhone } from "react-icons/fa6";
@@ -32,7 +36,27 @@ const Teacher = () => {
                             <p className="teacher_text">IT specialist </p>
 
                         </div>
-
+                    </div>
+                    <div className="teacher_card">
+                        <img className='teacher_img' src={teacher9} alt="" />
+                        <div className="teacher_card_bottom">
+                            <p className="teacher_subtitle">Sayidov Ibrohim</p>
+                            <p className="teacher_text">Robototexnika </p>
+                        </div>
+                    </div>
+                    <div className="teacher_card">
+                        <img className='teacher_img' src={teacher11} alt="" />
+                        <div className="teacher_card_bottom">
+                            <p className="teacher_subtitle">Jumaboyeva Zarifa</p>
+                            <p className="teacher_text">English teacher </p>
+                        </div>
+                    </div>
+                    <div className="teacher_card">
+                        <img className='teacher_img' src={teacher12} alt="" />
+                        <div className="teacher_card_bottom">
+                            <p className="teacher_subtitle">Jumaboyeva Zarifa</p>
+                            <p className="teacher_text">English teacher </p>
+                        </div>
                     </div>
                     <div className="teacher_card">
                         <img className='teacher_img' src={teacher2} alt="" />
@@ -85,6 +109,15 @@ const Teacher = () => {
                             <p className="teacher_text">Administrator </p>
                         </div>
                     </div>
+
+                    <div className="teacher_card">
+                        <img className='teacher_img' src={teacher10} alt="" />
+                        <div className="teacher_card_bottom">
+                            <p className="teacher_subtitle">Eshonqulov Olmos</p>
+                            <p className="teacher_text">Jismoniy tarbiya </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
