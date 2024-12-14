@@ -19,7 +19,7 @@ const App = () => {
     //     Muammo bo'yicha quyidagi raqamga <br /> qo'ngiroq qilishingiz mumkin: <br />
     //     <a className='sayt_link' href="tel: +998938091644">+998 (93) 809-16-44</a></h1>
     // </div>
-    <div>
+    <div id='home'>
 
       <Nav />
       <Upcoming />
@@ -27,12 +27,20 @@ const App = () => {
       <div id="form-section">
         <Form />
       </div>
-      <About />
+      <div id='about'>
+        <About />
+      </div>
       <Form />
-      <Additional />
-      <Teacher />
+      <div id='additional'>
+        <Additional />
+      </div>
+      <div id='teacher'>
+        <Teacher />
+      </div>
       <Form />
-      <Map />
+      <div id='map'>
+        <Map />
+      </div>
       <Footer />
     </div>
   )

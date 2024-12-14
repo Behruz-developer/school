@@ -10,6 +10,7 @@ import logo2 from '../../assets/images/logo2.svg'
 import { CgMenu } from "react-icons/cg";
 
 import { CgClose } from "react-icons/cg";
+import { Link } from 'react-scroll';
 const Nav = () => {
   const [active, setActive] = useState(false);
 
@@ -53,11 +54,11 @@ const Nav = () => {
             </a>
             <ul className={`nav_list ${active && "active"}`}>
               <CgClose className='nav_close' onClick={() => setActive(false)} />
-              <li><a href="#!" className="nav_link">Asosiy sahifa</a></li>
-              <li><a href="#!" className="nav_link">Maktab</a></li>
-              <li><a href="#!" className="nav_link">To’garak</a></li>
-              <li><a href="#!" className="nav_link">O’qituvchilar</a></li>
-              <li><a href="#!" className="nav_link">Manzil </a></li>
+              <li><Link to='home' href='#!'onClick={() => setActive(false)} smooth={true} duration={500} className="nav_link">Asosiy sahifa</Link></li>
+              <li><Link to='about' href="#!"onClick={() => setActive(false)} smooth={true} duration={500} className="nav_link">Maktab</Link></li>
+              <li><Link to='additional' href="#!"onClick={() => setActive(false)} smooth={true} duration={500} className="nav_link">To’garak</Link></li>
+              <li><Link to='teacher' href="#!"onClick={() => setActive(false)} smooth={true} duration={500} offset={-80} className="nav_link">O’qituvchilar</Link></li>
+              <li><Link to='map' href="#!"onClick={() => setActive(false)} smooth={true} duration={500} className="nav_link">Manzil </Link></li>
               <a href="tel:+998722000809" className="nav_phone2"> <BiSolidPhone className='nav_phone_icon' /> Qo’ng’iroq qilish</a>
               <div className="header_card2">
 
