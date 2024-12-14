@@ -18,7 +18,7 @@ const Nav = () => {
       <header className='header'>
         <div className="container">
           <div className="header_box">
-            <a href="+998722000809" className='header_phone'> <BiSolidPhone className='header_phone_icon' />+998 (72) 200-08-09</a>
+            <a href="tel:+998722000809" className='header_phone'> <BiSolidPhone className='header_phone_icon' />+998 (72) 200-08-09</a>
 
             <div className="header_card">
               <img src={micrafon} alt="" />
@@ -58,23 +58,21 @@ const Nav = () => {
               <li><a href="#!" className="nav_link">To’garak</a></li>
               <li><a href="#!" className="nav_link">O’qituvchilar</a></li>
               <li><a href="#!" className="nav_link">Manzil </a></li>
-              <a href="#!" className="nav_phone2"> <BiSolidPhone className='nav_phone_icon' /> Qo’ng’iroq qilish</a>
+              <a href="tel:+998722000809" className="nav_phone2"> <BiSolidPhone className='nav_phone_icon' /> Qo’ng’iroq qilish</a>
               <div className="header_card2">
-                <div className="header_icon2">
-                  <img src={youtube} alt="" />
-                </div>
-                <div className="header_icon2">
+
+                <a href='https://www.instagram.com/hamrakulov_maktabi/profilecard/?igsh=MTM0amk0bnk2NXRnOA==' className="header_icon2">
                   <img src={instagram} alt="" />
-                </div>
-                <div className="header_icon2">
+                </a>
+                <a href='https://t.me/hamrakulov_maktabi' className="header_icon2">
                   <img src={telegram} alt="" />
-                </div>
-                <div className="header_icon2">
+                </a>
+                <a href='#!' className="header_icon2">
                   <img src={facebook} alt="" />
-                </div>
+                </a>
               </div>
             </ul>
-            <a href="+998722000809" className="nav_phone"> <BiSolidPhone className='nav_phone_icon' /> Qo’ng’iroq qilish</a>
+            <a href="tel:+998722000809" className="nav_phone"> <BiSolidPhone className='nav_phone_icon' /> Qo’ng’iroq qilish</a>
             <CgMenu className='nav_menu' onClick={() => setActive(true)} />
 
           </div>

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import img1 from '../../assets/images/upcoming.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-scroll';
 
 
 
@@ -20,10 +21,19 @@ const Upcoming = () => {
           <h2 className="upcoming_title " data-aos="fade-right">
             Biz natijalarni – <br /> amaliyotni <br /><span>ustiga quramiz.</span>
           </h2>
-          <p className="upcoming_text" data-aos="fade-right"data-aos-duration="1200">
+          <p className="upcoming_text" data-aos="fade-right" data-aos-duration="1200">
             Ingliz tili va aniq fanlarga ixtisoslashgan, amaliy darslar va natijalar maktabi
           </p>
-          <a href="#!" className="upcoming_link">Ariza qoldirish</a>
+          <Link
+
+            to="form-section" // Target the id of the Form component's container
+            smooth={true}
+            duration={500}
+            offset={50}
+            className="upcoming_link"
+          >
+            Ariza qoldirish
+          </Link>
         </div>
       </div>
     </div>
